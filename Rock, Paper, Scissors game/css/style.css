@@ -1,0 +1,93 @@
+body {
+	background: #182547;
+	/*radial-gradient (214, 237, 47%, 49%, 23%, 15%) надо разбираться*/
+}
+
+.td_button {
+	padding: 30px; /* Поля вокруг текста */
+	text-align: center;
+	height: 150px; /* Высота */
+}
+
+.td_text {
+	width: 200px;
+	color: #fff;
+}
+
+#top {
+	/*background: #007E3E; /* Цвет фона */
+	margin: 30px;
+	border: 5px solid #1f2f4e; /* Параметры рамки */
+	color: #fff; /* Цвет текста */
+	padding: 30px; /* Поля вокруг текста */
+	border-radius: 15px; /* Уголки */
+}
+
+#btnRules {
+	background: #182547; /* Цвет фона */
+	margin: 30px;
+	width: 150px;
+	bottom: 30px;
+	border: 5px solid #1f2f4e; /* Параметры рамки */
+	color: #fff; /* Цвет текста */
+	border-radius: 15px; /* Уголки */
+}
+
+#Triangle {
+	background-image: url("images/bg-triangle.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 400px;
+}
+
+.button_rock {
+	background: #f2f6f8; /* Цвет фона */
+	border: 15px solid #de3655; /* Параметры рамки */
+	width: 150px; /* Ширина кнопки */
+	height: 150px; /* Высота */
+	border-radius: 100px;
+}
+
+.button_paper {
+	background: #f2f6f8; /* Цвет фона */
+	border: 15px solid #4562ee; /* Параметры рамки */
+	width: 150px; /* Ширина кнопки */
+	height: 150px; /* Высота */
+	border-radius: 100px;
+}
+
+.button_scissors {
+	background: #f2f6f8; /* Цвет фона */
+	border: 15px solid #eda214; /* Параметры рамки */
+	width: 150px; /* Ширина кнопки */
+	height: 150px; /* Высота */
+	border-radius: 100px;
+}
+
+.Close_Button {
+	background: #fff; /* Цвет фона */
+	border: 0px;
+}
+
+.User_Message {
+	position: absolute;
+	height: 120px;
+	width: 170px;
+    top: 50%;
+    left: 50%;
+    margin-top: -60px;
+    margin-left: -85px;
+	background: #fff; /* Цвет фона */
+}
+
+#divRules {
+	position: absolute;
+	height: 380px;
+	width: 380px;
+    top: 50%;
+    left: 50%;
+    margin-top: -190px;
+    margin-left: -190px;
+	background: #fff; /* Цвет фона */
+	border-radius: 10px;
+}

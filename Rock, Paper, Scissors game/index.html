@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rock, Paper, Scissors</title>
+  
+	<link href='css\style.css' rel='stylesheet' type='text/css' />
+
+	<script type='text/javascript' src='bin\jquery-3.5.1.js'></script>
+	<script type='text/javascript' src='scripts\play.js'></script>
+
+</head>
+
+<body>
+	<table width = '1366px' align='center'>
+		<tr>
+			<td colspan = '4'>
+				<div id="top">
+					<table width='100%'>
+						<tr>
+							<td align = 'left'>
+									<img src = 'images\logo.svg'>
+							</td>
+							<td align = 'right'>
+								<table>
+									<tr>
+										<td align = 'center'>SCORE</td>
+									</tr>
+									<tr>
+										<td align = 'center'><h1 id='ScoreVal'>12</h1></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</td>
+		</tr>
+		
+		<tr>
+			<td class = 'td_text'>
+				<h1>You<br>choose:</h1>
+			</td>
+			<td class = 'td_button'>
+				<button id = 'UserButtonRock' class='button_rock'><img src="images\icon-rock.svg" alt="Rock"></button>
+			</td>
+			<td class = 'td_button'>
+				<button id = 'UserButtonPaper' class='button_paper'><img src="images\icon-paper.svg" alt="Paper"></button>
+			</td>
+			<td class = 'td_button'>
+				<button id = 'UserButtonScissors' class='button_scissors'><img src="images\icon-scissors.svg" alt="Scissors"></button>
+			</td>
+		<!--
+			<td align='center' height='500'>
+				<div id='Triangle' align='center'>
+					<div>
+						<img src = 'images\icon-paper.svg'>
+					</div>
+					&nbsp
+					<div>
+						<img src = 'images\icon-scissors.svg'>
+					</div>
+					<br>
+					<div>
+						<img src = 'images\icon-rock.svg'>
+					</div>
+				</div>
+			</td>
+		-->
+		</tr>
+
+		<tr>
+			<td class='td_text'>
+				<h1>Computer<br>chooses:</h1>
+			</td>
+			<td class = 'td_button'>
+				<button id = 'ComputerButtonRock'class='button_rock'><img src="images\icon-rock.svg" alt="Rock"></button>
+			</td>
+			<td class = 'td_button'>
+				<button id = 'ComputerButtonPaper' class='button_paper'><img src="images\icon-paper.svg" alt="Paper"></button>
+			</td>
+			<td class = 'td_button'>
+				<button id = 'ComputerButtonScissors' class='button_scissors'><img src="images\icon-scissors.svg" alt="Scissors"></button>
+			</td>
+		</tr>
+	</table>
+	
+	<div align = 'right'>
+		<button align='center' id='btnRules'>
+			<h1>RULES</h1>
+		</button>
+	</div>
+	
+	<div id='YouWon' class='User_Message'>
+		<div width ='170px' align = 'right'>
+			<button class="Close_Button"><img src="images\icon-close.svg" alt="Close"></button>
+		</div>
+		<br>
+		<div align = 'center'>
+			<h1>You Won!</h1>
+		</div>
+	</div>
+	
+	<div id='YouLoose' class='User_Message'>
+		<div width ='170px' align = 'right'>
+			<button class="Close_Button"><img src="images\icon-close.svg" alt="Close"></button>
+		</div>
+		<br>
+		<div align = 'center'>
+			<h1>You loose :(</h1>
+		</div>
+	</div>
+	
+	<div id='Draw' class='User_Message'>
+		<div width ='170px' align = 'right'>
+			<button class="Close_Button"><img src="images\icon-close.svg" alt="Close"></button>
+		</div>
+		<br>
+		<div align = 'center'>
+			<h1>Draw...</h1>
+		</div>
+	</div>
+	
+	<div id='divRules' align='center'>
+		<table border = '0'>
+			<tr>
+				<td align = 'left'>
+					<h1>RULES</h1>
+				</td>
+				<td align = 'right'>
+					<button id="btnCloseRules" border = '0' bgcolor = 'white'><img src="images\icon-close.svg" alt="Close"></button>
+					<br>
+				</td>
+			</tr>
+			<tr>
+				<td colspan = '2' align = 'center'>
+					<img src="images\image-rules.svg" alt="Rules">
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+
+</html>
